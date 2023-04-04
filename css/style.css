@@ -61,6 +61,9 @@ p{
         text-align: center;
         vertical-align: middle;
     }
+    .break{
+        margin-bottom: 20px;
+    }
 }
 
 /*Colores*/
@@ -68,6 +71,9 @@ p{
     background-color: #E2F4F8;
     height: 100%;
     padding: 20px;
+}
+.black-blue{
+    color:#0D667E;
 }
 
 .logo{
