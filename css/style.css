@@ -1,5 +1,5 @@
-/*
-Fuentes de google
+/* 
+Google fonts 
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Josefin Slab', serif;
 font-family: 'Playfair Display', serif;
@@ -12,18 +12,64 @@ header,footer{
 }
 ul{
     list-style-type: none;
-    display:flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
+
 }
 a{
     text-decoration:none;
-    font-size:20px;
 }
 li{
     padding:5px;
     margin:5px;
 }
+
+/*Font*/
+.titulo{
+    font-family: 'Josefin Slab', serif;
+    align-self: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+    font-size:x-large;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+}
+h4{
+    font-family: 'Playfair Display', serif;
+    /*margin-bottom: 5px;*/
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:large;
+    line-height: 120%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*Mobile*/
+@media (max-width:768px){
+    .center{
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+/*Colores*/
+.fondo{
+    background-color: #E2F4F8;
+    height: 100%;
+    padding: 20px;
+}
+
 .logo{
     width:60px;
     margin-right: 12px;
@@ -45,12 +91,6 @@ li{
     display: flex;
     justify-content: center;
 }
-.titulo{
-    font-family: 'Playfair Display', serif;
-    align-self: center;
-    margin-left: 10px;
-    margin-top: 10px;
-}
 .nav-list{
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
@@ -62,17 +102,7 @@ li{
 .menu{
     display: inline-block;
 }
-.portada{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: auto;
-}
-.portada img{
-    width: 100%;
-    height: auto;
-    margin-top: 0px;
-}
+
 hr{
     margin: 0px;
 }
@@ -83,27 +113,7 @@ main{
 .presentacion{
     display: inline-block;
 }
-h1{
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 5px;
-    font-size:x-large;
-}
-h2{
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 5px;
-}
-h3{
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 5px;
-}
-p{
-    font-family: 'Josefin Slab', serif;
-    font-size: medium;
-    font-weight: bold;
-    line-height: 120%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+
 
 .footer{
     justify-content:space-around;
