@@ -49,6 +49,11 @@ h5{
     font-family: 'Playfair Display', serif;
     /*margin-bottom: 5px;*/
 }
+h6{
+    font-family: 'Josefin Sans', sans-serif;
+
+    /*margin-bottom: 5px;*/
+}
 p{
     font-family: 'Josefin Sans', sans-serif;
     font-size:large;
@@ -91,7 +96,20 @@ p{
     text-align: center;
     vertical-align: middle;
 }
-
+.card-radius{
+    border-radius: 15px;
+}
+.buttons{
+    background-color: #14A3C9;
+    border-radius: 20px;
+    color: #ffff;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.break{
+    margin-bottom: 20px;
+}
 
 .logo{
     width:60px;
