@@ -72,12 +72,7 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
 }
-.s-textinput{
-    background-color: #E2F4F8;
-    border-radius: 15px;
-    border: 1px solid white;
-    padding: 14px;
-}
+
 
 /*Tablet*/
 @media (max-width:992px){
@@ -129,8 +124,17 @@ p{
 .card-margin{
     border: 8px solid white;
 }
-
-
+.s-textinput{
+    background-color: #E2F4F8;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 14px;
+}
+.footer{
+    background-color: #F6FDFF;
+    padding: 30px;
+    margin-top: 20px;
+}
 
 
 
@@ -182,12 +186,7 @@ main{
 }
 
 
-.footer{
-    justify-content:space-around;
-    background-color: #E2F4F8;
-    padding: 30px;
-    margin-top: 20px;
-}
+
 .redes{
     font-family: 'Josefin Slab', serif;
     font-size: medium;
