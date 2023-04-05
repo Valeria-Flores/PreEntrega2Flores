@@ -52,20 +52,32 @@
     <main>
         <!--Titulo de la seccion-->
         <div class="n-seccion">
+            <br>
             <h1>Contacto</h1>
             <p>Si quieres pedir una cita o deseas más información, puedes ponerte en contacto.</p>
         </div>
         <!--Formulario-->
-        <form class="formulario">
-            <p>Nombre</p>
-            <input type="text" name="Nombre">
-            <p>Correo</p>
-            <input type="text" name="Correo">
-            <p>Comentarios</p>
-            <input type="text" name="Comentarios">
-            <br>
-            <button name="Enviar">Enviar</button>
+        <form class="container">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <label for="name" class="s-label">Nombre</label>
+                    <input type="text" class="form-control s-textinput break" id="nombre">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <label for="email" class="s-label">Email</label>
+                    <input type="email" class="form-control s-textinput break" id="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <label for="comments" class="s-label">Comentarios</label>
+                    <textarea class="form-control s-textinput break" id="comentarios"></textarea>
+                </div>
+            </div>
         </form>
+        <br>
     </main>
     
      <!--Footer-->
@@ -73,6 +85,7 @@
         <div class="container">
             <div class="row align-items-center black-blue">
                 <div class="col-12 col-lg-9">
+                    <br>
                     <p> Zamora 138BIS, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX</p>
                     <p>Horario de atención: 9 am - 6 pm</p>
                     <p class="break">Teléfono: 55 6769 8235</p>
