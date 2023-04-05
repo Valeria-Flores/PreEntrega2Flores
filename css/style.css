@@ -28,6 +28,8 @@ li{
     align-self: center;
     margin-left: 10px;
     margin-top: 10px;
+    color:#0D667E;
+    font-size: x-large;
 }
 h1{
     font-family: 'Playfair Display', serif;
@@ -72,7 +74,11 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
 }
-
+.nav-list{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#0D667E;    
+    font-size: large;
+}
 
 /*Tablet*/
 @media (max-width:992px){
@@ -93,6 +99,9 @@ p{
 }
 .black-blue{
     color:#0D667E;
+}
+.light-blue{
+    background-color: #F6FDFF;
 }
 
 /*Estilo*/
@@ -134,7 +143,9 @@ p{
     background-color: #F6FDFF;
     padding: 30px;
     margin-top: 20px;
+    color:#0D667E;
 }
+
 
 
 
@@ -162,10 +173,7 @@ p{
     display: flex;
     justify-content: center;
 }
-.nav-list{
-    font-family: 'Josefin Slab', serif;
-    font-weight: 600;
-}
+
 .navegador{
     font-family: 'Josefin Slab', serif;
 
